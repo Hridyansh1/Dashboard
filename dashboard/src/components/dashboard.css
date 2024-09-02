@@ -1,0 +1,176 @@
+/* General Dashboard Container */
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  /* Title Style */
+  .dashboard-title {
+    margin-bottom: 20px;
+    color: #003366;
+  }
+  
+  /* First Row Styles */
+  .first-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Card Styles */
+  .card {
+    width: 204px;
+    height: 136px;
+    border-radius: 10px;
+    padding: 12px 20px 12px 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:nth-child(1) {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+  }
+  
+  .card:nth-child(2) {
+    background-color: #e6f7ff;
+    border: 1px solid #b3d9ff;
+  }
+  
+  .card:nth-child(3) {
+    background-color: #e8f5e9;
+    border: 1px solid #c8e6c9;
+  }
+  
+  /* Recent Activity Styles */
+  .recent-activity {
+    width: 427px;
+    height: 258px;
+    background-color: #003366;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  
+  .recent-activity-date {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .recent-activity-title {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  
+  .recent-activity-activities {
+    margin: 10px 0;
+  }
+  
+  .recent-activity-button {
+    padding: 10px 15px;
+    background-color: #ff6f6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: auto;
+    font-size: 14px;
+  }
+  
+  /* Second Row Styles */
+  .second-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Large Card Styles */
+  .card-large {
+    width: 312px;
+    height: 190px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: -40px; /* Move the card up */
+  }
+  
+  .card-large:nth-child(1) {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+  }
+  
+  .card-large:nth-child(2) {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+  }
+  
+  /* Upcoming Schedule Styles */
+  .upcoming-schedule {
+    width: 427px;
+    height: 550px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .upcoming-schedule-title {
+    color: #003366;
+    margin-bottom: 10px;
+  }
+  
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .schedule-table th, .schedule-table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .schedule-button {
+    padding: 10px 15px;
+    background-color: #ff6f6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 14px;
+  }
+  
+  /* Announcements Styles */
+  .announcements {
+    width: 55%;
+    height: 334px;
+    background-color: #ffebee;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -400px;
+  }
+  
+  .announcements-button {
+    padding: 10px 15px;
+    background-color: #ff6f6f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-start;
+    font-size: 14px;
+  }
+  
